@@ -96,7 +96,7 @@ Afin de mener à bien ce projet nous avons eu une maquette de deux version du si
 
 1. Clonez le repo
    ```sh
-   git clone https://github.com/Soaen/DevInte-Blog.git
+   git clone https://github.com/Soaen/DevInte-Tailleur.git
    ```
 
 <p align="right">(<a href="#readme-top">Retourner en haut</a>)</p>
