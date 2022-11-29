@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## A propos du projet
 
-Notre agence à été contactée par le tailleur Ducsman afin de refaire son site web.
+Notre agence à été contactée par le tailleur Ducsman afin de réalisé son site web.
 
 Afin de mener à bien ce projet nous avons eu une maquette de deux version du site web.
 
