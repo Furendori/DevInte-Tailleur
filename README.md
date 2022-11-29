@@ -35,12 +35,12 @@
 <h3 align="center">Ducsman - Tailleur</h3>
 
   <p align="center">
-    Notre agence à été contactée par le Tailleur Ducsman afin de réalisé son site web.
+    Notre agence à été contactée par le Tailleur Ducsman afin de réaliser son site web.
     <br />
     <a href="https://github.com/Soaen/DevInte-Tailleur"><strong>Explorer la documentation »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Soaen/DevInte-Tailleur">Voir une Demo</a>
+    <a href="https://github.com/Soaen/DevInte-Tailleur">Voir une Démo</a>
     ·
     <a href="https://github.com/Soaen/DevInte-Tailleur/issues">Report Bug</a>
     ·
@@ -69,9 +69,9 @@
 <!-- ABOUT THE PROJECT -->
 ## A propos du projet
 
-Notre agence à été contactée par le tailleur Ducsman afin de réalisé son site web.
+Notre agence à été contactée par le tailleur Ducsman afin de réaliser son site web.
 
-Afin de mener à bien ce projet nous avons eu une maquette de deux version du site web.
+Afin de mener à bien ce projet nous avons eu une maquette de deux versions du site web.
 
 <h2>Desktop</h2>
 
