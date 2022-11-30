@@ -1,18 +1,14 @@
-.panier
+img
 {
-    position: absolute;
-    bottom: 80%;
-    left: 90%;
-    transform: translateX(-50%);
-    padding: 1.5rem 2.5rem;
-    text-transform: uppercase;
+  width: 200px;
+  height: 300px;
+
 }
 
-.navigation
+.orga
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: blue;
-
+  display: block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
