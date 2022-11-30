@@ -1,25 +1,14 @@
-header
+img
 {
-  display: flex; 
+  width: 200px;
+  height: 300px;
+
+}
+
+.orga
+{
+  display: block;
   flex-wrap: wrap;
-  justify-content: right;
-
-}
-.panier
-{
-    position: absolute;
-    bottom: 80%;
-    left: 90%;
-    transform: translateX(-50%);
-    padding: 1.5rem 2.5rem;
-    text-transform: uppercase;
-}
-
-.navigation
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: blue;
-
+  flex-direction: row;
+  justify-content: space-around;
 }
