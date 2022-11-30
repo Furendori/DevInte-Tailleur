@@ -2,6 +2,7 @@ h1{
     font-family: 'Italianno', Verdana, Geneva, Tahoma, sans-serif
 }
 nav{
+
     padding-left: 60px;
     padding-top: 20px;
     position: fixed;
@@ -12,16 +13,16 @@ nav{
     background-color: $bluemenu;
     color: $goldmenu;
     p{
-        margin: 0;
+        margin: 0;   
     }
-    .nav-name{
-        font-size: 80px;
-        font-family: 'Italianno', Verdana, Geneva, Tahoma, sans-serif
-    }
-    .nav-quote{
-        font-size: 25px;
-        font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
-    }
+    a{
+        padding-left: 0px;
+        text-decoration: none;
+        color: $goldmenu;
+        &:hover{
+            text-decoration: underline;
+        }
+    } 
     ul{
         padding: 0;
         li{
@@ -40,7 +41,18 @@ nav{
         }
     }
 }
-iframe{
+
+.nav-name{
+    font-size: 80px;
+    font-family: 'Italianno', Verdana, Geneva, Tahoma, sans-serif
+}
+.nav-quote{
+    font-size: 25px;
+    font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav iframe{
     margin-top: 30px;
     width: 85%;
     height: 40%; 
@@ -54,4 +66,106 @@ iframe{
         opacity: 0.7;
     }
 }
-
+.top-img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+}
+main{
+    padding-left: 525px;
+    .page-contact{
+        margin: 0;
+        margin-top: 20px;
+        font-family: 'Amiri';
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    p, a{
+        margin: 0;
+        margin-top: 20px;
+        text-decoration: none;
+        display: flex;
+        font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        margin-left: 320px;
+        &:first-child{
+            margin-top: -55px
+        }
+    };
+    a{
+        color: black;
+        text-decoration: underline;
+        &:hover{
+            color: $graycontact;
+        }
+    }
+    .div-contact-adresse{
+        margin-left: -150px;
+        display: flex;
+    }
+    div{
+        margin-top: 100px;
+        img{
+            margin-left: 100px
+        }
+    } 
+    .google-map{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 90%;
+        height: 700px;
+    }
+    .contact-form{
+        border-radius: 50px;
+        color: white;
+        margin-left: 350px;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        background-color: $bluemenu;
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 200px;
+        fieldset{
+            border: 0;
+            div{
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                input,textarea{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 40%;
+                    font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
+                }
+                label{
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-size: 30px;
+                    font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+            .btn-submit{
+                border: 0;
+                font-size: 20px;
+                height: 50px;
+                width: 150px;
+                color: $whiteres;
+                background-color: $blackcontact;
+                border: 1px solid $graycontact;
+                &:hover{
+                    background-color: $graycontact;
+                    border: 1px solid $blackcontact;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+footer{
+    background-color: $bluemenu;
+    margin-bottom: 0;
+}
