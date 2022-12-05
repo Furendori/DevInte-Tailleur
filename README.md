@@ -110,8 +110,9 @@ Afin de mener à bien ce projet nous avons eu une maquette de deux versions du s
 - [ ] Page Détail
 - [X] Page Contact
 - [X] Page CGV
-- [ ] Page RGPD
-- [ ] Page Mentions Légales
+- [X] Page RGPD
+- [X] Page Mentions Légales
+- [X] Page A Propos
 
 <p align="right">(<a href="#readme-top">Retourner en haut</a>)</p>
 
@@ -140,7 +141,13 @@ N'oubliez pas de donner une étoile au projet ! Merci encore !
 <!-- CONTACT -->
 ## Contact
 
-Sylvain - sylvain.vansteenkiste59@gmail.com
+Sylvain - [Soaen](https://github.com/Soaen)
+
+Rubic - [ForskyOnly](https://github.com/ForskyOnly)
+
+Julian - [Furendori](https://github.com/Furendori)
+
+Okba - [okbac](https://github.com/okbac)
 
 Lien du projet: [https://github.com/Soaen/DevInte-Tailleur](https://github.com/DevInte-Tailleur)
 
