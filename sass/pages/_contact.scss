@@ -17,11 +17,10 @@ main{
         display: flex;
         justify-content: center;
     }
-    p, a{
+    .contact-infos{
         margin: 0;
         margin-top: 20px;
         text-decoration: none;
-        display: flex;
         font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
         font-size: 30px;
         margin-left: 320px;
