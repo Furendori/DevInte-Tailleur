@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sass/normalize.css">
     <link rel="stylesheet" href="./sass/main.css">
+    <script src="https://kit.fontawesome.com/1a56f0a0c1.js" crossorigin="anonymous"></script>
     <title>Conditions Générales De Vente</title>
 </head>
 <body>
+    <!-- Début Menu -->
+
+    <div class="burger open"><i class="fa-sharp fa-solid fa-bars"></i></div>
+    
     <header>
-        <nav>
+    
+        <nav class="menunav">
             <div>
                 <a href="index.html">
                     <p class="nav-name">Ducsman</p>
                     <p class="nav-quote">Sapés comme jamais</p>
                 </a>
+                <div class="cross close hidden"><i class="fa-solid fa-xmark"></i></div>
+
             </div>
             
             <ul>
@@ -24,7 +32,9 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="#">SAV</a></li>
             </ul>
+            <div class="google-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.611416033301!2d2.3414638287260106!3d48.861915225405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e18a5f84801%3A0x6eb5daa624bdebd2!2sHalles%20de%20Paris%2C%2075001%20Paris!5e0!3m2!1sfr!2sfr!4v1669813946238!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
             <div>
                 <a href="https://instagram.com"><i class="fa-brands fa-instagram btn-global"></i></a>
                 <a href="https://facebook.com"><i class="fa-brands fa-facebook-f btn-global btn-margin"></i></a>
@@ -32,6 +42,9 @@
             </div>
         </nav>
     </header>
+
+
+    <!-- Fin Menu -->
     
 
     <main>
@@ -73,6 +86,9 @@
 
                 </p>
     </main>
+    <!-- Début Footer -->
+
+
     <footer>
 
         <section class="contact-footer">
@@ -85,13 +101,13 @@
             </ul>
             <ul>
                 <li><a href="#"><h2>Conseils Produits</h2></a></li>
-                <li><a href="#">Guide des tailles</a></li>
+                <li><a href="imgs/taille.jpg" target="_blank">Guide des tailles</a></li>
             </ul>
             <ul>
                 <li><a href="#"><h2>Mentions Légales</h2></a></li>
-                <li><a href="#">Conditions Générales de Vente</a></li>
-                <li><a href="#">Conditions Générales d'Utilisation</a></li>
-                <li><a href="#">Conditions de Confidentialité</a></li>
+                <li><a href="cgv.html">Conditions Générales de Vente</a></li>
+                <li><a href="rgpd.html">Règlement Général sur la Protection des Données</a></li>
+                <li><a href="mentions.html">Mentions Légales</a></li>
             </ul>
 
         </section>
@@ -99,8 +115,10 @@
 
         <section class="footer-newsletter">
             <div>
-                <h2 class="nav-name"><a href="index.html">Ducsman</a></h2>
-                <p class="nav-quote"><a href="index.html">Sapés comme jamais</a></p>
+                <a href="index.html">
+                    <h2 class="nav-name">Ducsman</h2>
+                    <p class="nav-quote">Sapés comme jamais</p>
+                </a>
             </div>
             
             <div class="newsletter">
@@ -112,5 +130,16 @@
         </section> 
 
     </footer>
+
+
+    <!-- Fin Footer -->
+
+
+    <!-- A METTRE OBLIGATOIREMENT A LA FIN ! -->
+
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/app.js"></script>
+
+    <!-- A METTRE OBLIGATOIREMENT A LA FIN ! -->
 </body>
 </html>
