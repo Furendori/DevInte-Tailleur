@@ -108,8 +108,8 @@ Afin de mener à bien ce projet nous avons eu une maquette de deux versions du s
 
 - [ ] Page Accueil
 - [ ] Page Détail
-- [ ] Page Contact
-- [ ] Page CGV
+- [X] Page Contact
+- [X] Page CGV
 - [ ] Page RGPD
 - [ ] Page Mentions Légales
 

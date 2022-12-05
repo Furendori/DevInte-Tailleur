@@ -1,0 +1,154 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-top: 1%;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background-color: $bluemenu;
+    color: $goldmenu;
+    p{
+        margin: 0;   
+    }
+    a{
+        padding-left: 0px;
+        text-decoration: none;
+        color: $goldmenu;
+        &:hover{
+            text-decoration: underline;
+        }
+    } 
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        li{
+            list-style-type: none;
+            padding-top: 20px;
+            a{
+                padding-left: 0px;
+                font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 3em;
+                text-decoration: none;
+                color: $goldmenu;
+                &:hover{
+                    text-decoration: underline;
+                }
+            } 
+        }
+    }
+    .nav-name{
+        font-size: 10em;
+        font-family: 'Italianno', Verdana, Geneva, Tahoma, sans-serif
+    }
+    .nav-quote{
+        font-size: 2em;
+        font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+nav {
+    .google-map{
+        width: 85%;
+        height: 20%;
+        border: 10px solid #CBAF6F;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.btn-global{
+    margin-top: 50px;
+    color: $whiteres;
+    font-size: 50px;
+    margin-left: 15%;
+    &:hover{
+        opacity: 0.7;
+    }
+}
+
+.burger, .cross{
+    display: none;
+}
+
+@media screen and (max-width: 390px) {
+    .burger{
+        position: fixed;
+        display: block;
+        z-index: 20;
+        left: 0%;
+        background-color: $bluemenu;
+        height: 100%;
+        color: $whiteres;
+        padding: 10px;
+        width: 25px;
+        i{
+            font-size: 30px;
+        }
+    }
+    .cross{
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 20px;
+        margin: 10px;
+        color: $whiteres
+    }
+    
+    nav {
+    width: 50%;
+    margin-top: 0;
+    z-index: 10;
+    position: fixed;
+    top: 0%;
+    flex-direction: column;
+    transition: all .5s ease-in-out;
+    transform: translateX(-300%);
+    .elementnav {
+      margin: 10px;
+      padding: 10px; 
+    }
+    .nav-name{
+      font-size: 60px;
+    }
+    .nav-quote{
+        font-size: 20px;
+    }
+    ul{
+        li{
+            a{
+                font-size: 30px;
+            } 
+        }
+    }
+    }
+    .menunav.open{
+        transition: all .5s ease-in-out;
+        transform: translateX(0%);
+    }
+    
+    nav {
+        iframe{
+            width: 75%;
+            height: 20%; 
+        }
+        .google-map{
+            margin-top: 20px;
+        }
+    }
+.btn-global{
+    margin-top: 50px;
+    color: $whiteres;
+    font-size: 25px;
+    margin-left: 15%;
+    &:hover{
+        opacity: 0.7;
+    }
+}
+.hidden{
+    display: none;
+}
+}
