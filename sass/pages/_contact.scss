@@ -18,6 +18,7 @@ main{
         justify-content: center;
     }
     .contact-infos{
+
         margin: 0;
         margin-top: 20px;
         text-decoration: none;
@@ -27,7 +28,7 @@ main{
         &:first-child{
             margin-top: -55px
         }
-    };
+    }
     a{
         color: black;
         text-decoration: underline;
