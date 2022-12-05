@@ -39,7 +39,7 @@ nav{
         }
     }
     .nav-name{
-        font-size: 10em;
+        font-size: 6em;
         font-family: 'Italianno', Verdana, Geneva, Tahoma, sans-serif
     }
     .nav-quote{
@@ -90,6 +90,7 @@ nav {
         }
     }
     .cross{
+        display: block;
         position: fixed;
         top: 0;
         right: 0;
