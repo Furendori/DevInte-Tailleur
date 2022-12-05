@@ -29,7 +29,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Soaen/DevInte-Tailleur">
-    <img src="imgs/logo.png" alt="Logo" width="80" height="80">
+    <img src="imgs/logo.png" alt="Logo" width="160" height="80">
   </a>
 
 <h3 align="center">Ducsman - Tailleur</h3>
