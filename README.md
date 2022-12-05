@@ -141,7 +141,13 @@ N'oubliez pas de donner une étoile au projet ! Merci encore !
 <!-- CONTACT -->
 ## Contact
 
-Sylvain - sylvain.vansteenkiste59@gmail.com
+Sylvain - [Soaen](https://github.com/Soaen)
+
+Rubic - [ForskyOnly](https://github.com/ForskyOnly)
+
+Julian - [Furendori](https://github.com/Furendori)
+
+Okba - [okbac](https://github.com/okbac)
 
 Lien du projet: [https://github.com/Soaen/DevInte-Tailleur](https://github.com/DevInte-Tailleur)
 
