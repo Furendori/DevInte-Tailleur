@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-top: 1%;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background-color: $bluemenu;
+    color: $goldmenu;
+    p{
+        margin: 0;   
+    }
+    a{
+        padding-left: 0px;
+        text-decoration: none;
+        color: $goldmenu;
+        &:hover{
+            text-decoration: underline;
+        }
+    } 
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        li{
+            list-style-type: none;
+            padding-top: 20px;
+            a{
+                padding-left: 0px;
+                font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 3em;
+                text-decoration: none;
+                color: $goldmenu;
+                &:hover{
+                    text-decoration: underline;
+                }
+            } 
+        }
+    }
+    .nav-name{
+        font-size: 10em;
+        font-family: 'Italianno', Verdana, Geneva, Tahoma, sans-serif
+    }
+    .nav-quote{
+        font-size: 2em;
+        font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+nav iframe{
+    width: 85%;
+    height: 30%; 
+}
+
+.btn-global{
+    margin-top: 50px;
+    color: $whiteres;
+    font-size: 50px;
+    margin-left: 15%;
+    &:hover{
+        opacity: 0.7;
+    }
+}
+
+.burger{
+    // z-index: 20;
+    // background-color: aliceblue;
+    display: none;
+}
+
+@media screen and (max-width: 391px) {
+    .burger{
+        position: fixed;
+        display: block;
+        z-index: 20;
+        left: 0%;
+        background-color: $bluemenu;
+        height: 100%;
+        color: $whiteres;
+        padding: 10px;
+        i{
+            font-size: 30px;
+        }
+    }
+    
+    nav {
+    margin-top: 0;
+    z-index: 10;
+    position: fixed;
+    top: 0%;
+    flex-direction: column;
+    transition: all .5s ease-in-out;
+    transform: translateX(-300%);
+    .elementnav {
+      margin: 10px;
+      padding: 10px; 
+    }
+    .nav-name{
+      font-size: 50px;
+    }
+    .nav-quote{
+        font-size: 20px;
+    }
+    ul{
+        li{
+            a{
+                font-size: 30px;
+            } 
+        }
+    }
+    }
+    .menunav.open{
+        transition: all .5s ease-in-out;
+        transform: translateX(0%);
+    }
+
+}
