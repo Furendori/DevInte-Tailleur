@@ -16,7 +16,7 @@ nav{
         text-decoration: none;
         color: $goldmenu;
         &:hover{
-            text-decoration: underline;
+            color: $goldhover;
         }
     } 
     ul{
@@ -51,7 +51,7 @@ nav{
 nav {
     .google-map{
         width: 85%;
-        height: 20%;
+        height: 40%;
         border: 10px solid #CBAF6F;
         iframe {
             width: 100%;
