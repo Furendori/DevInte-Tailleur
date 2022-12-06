@@ -130,7 +130,7 @@ nav {
         transition: all .5s ease-in-out;
         transform: translateX(0%);
     }
-    
+
     nav {
         iframe{
             width: 75%;
@@ -140,16 +140,16 @@ nav {
             margin-top: 20px;
         }
     }
-.btn-global{
-    margin-top: 50px;
-    color: $whiteres;
-    font-size: 25px;
-    margin-left: 15%;
-    &:hover{
-        opacity: 0.7;
+    .btn-global{
+        margin-top: 50px;
+        color: $whiteres;
+        font-size: 25px;
+        margin-left: 15%;
+        &:hover{
+            opacity: 0.7;
+        }
     }
-}
-.hidden{
-    display: none;
-}
+    .hidden{
+        display: none;
+    }
 }
