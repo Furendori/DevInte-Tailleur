@@ -21,6 +21,7 @@
             border-left: 10px solid $goldmenu;
             order:1;
             height: 500px;
+            width: auto;
             margin-top: 100px;
             object-fit: cover;
         }
@@ -33,7 +34,12 @@
     font-size: 22px;
     font-weight: bold;
     border: 2px solid $goldmenu;
-    
+}
+
+.yt{
+  width: 99%;
+  border: 8px solid $goldmenu;
+  
 }
 .example {
     position: relative;
