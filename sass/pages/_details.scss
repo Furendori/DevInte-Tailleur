@@ -23,10 +23,10 @@
   }
 
 #illu{
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 20px;
     height: 1000px;
-    width: 35%;
+    width: 60%;
     object-fit: contain;
 }
 
@@ -41,18 +41,24 @@ body .divarticle {
     margin-top: 20px;
     width: 70%;
     background-color: $bluemenu;
-    height: 500px;
+    height: 800px;
     font-size: xx-large;
     text-align: center;
     color: $whiteres;
-    justify-content: center;
     margin-left: 15%;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
+    p{
+        margin: 0px;
+    }
 }
 
-#textearticle {
-    margin-top: 20%;
+#infoscostume {
+    padding-top: 250px;
+    padding-right: 0px;
+}
+
+#infoscostume2 {
+    padding-top: 250px;
 }
 
 @media screen and (max-width: 390px) {
