@@ -36,6 +36,7 @@
 }
 
 body .divarticle {
+    list-style: none;
     border: 10px solid $goldmenu;
     display: flex;
     flex-direction: column;
@@ -72,52 +73,68 @@ body .divarticle {
     .title {
         border: 10px solid $goldmenu;
         border-radius: 40px;
-        margin-top: 50px;
-        padding-top: 10px;
         padding-bottom: 10px;
         background-color: $bluemenu;
         text-align: center;
         color: white;
-        font-size: 30px;
-        width: 110%;
+        font-size: medium;
+        width: 80%;
         justify-content: center;
-        margin-left: 57%;
+        margin-left: 10%;
         margin-right: auto;
     }
     
     .photo {
         display: flex;
-        flex-direction: column;
     }
 
     #illu{
-        margin-top: 50px;
-        height: 600px;
-        width: 100%;
+        margin-left: 5%;
+        width: 90%;
+        height: 80%;
+        margin-bottom: 10%;
+        margin-left: 7%;
     }
     
     .infos {
         font-size: medium;
+        background-color: $bluemenu;
+        color: white;
+        border: 10px solid $goldmenu;
+        border-radius: 10px;
+        margin-right: 30%;
+        margin-left: 23%;
+        width: 80%;
+        justify-content: center;
+        list-style: none;
     }
     
     body .divarticle {
         border: 10px solid $goldmenu;
         display: flex;
-        margin-top: 20px;
-        width: 120%;
+        width: 85%;
         background-color: $bluemenu;
-        height: 800px;
+        height: 600px;
         font-size: xx-large;
         text-align: center;
         color: $whiteres;
         justify-content: center;
-        margin-left: 60%;
+        margin-left: 7%;
         margin-right: auto;
         margin-bottom: 20px;
     }
     
     #textearticle {
-        margin-top: 25%;
-        width: 50%;
+        margin-top: 0%;
+        width: 80%;
+        margin-left: 15%;
     }
+
+    .article-text-list{
+        max-width: 40%;
+        font-size: large;
+    }
+
+    
+
 }
