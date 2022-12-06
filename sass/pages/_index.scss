@@ -1,28 +1,33 @@
-img
-{
-  width: 200px;
-  height: 300px;
-
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .bloc{
+      position: relative;
+      height: 100%;
+      margin-bottom: 20px; 
+      img{
+        width: 200px;
+        height: 300px;
+      }
+  }
+  a{
+    font-weight: bold;
+    text-decoration: none;
+    &:hover img{
+      opacity: 0.7;
+    }
+    &:hover{
+      color: black
+    }
+  }
+  
 }
 
-.section
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-
-
-
-.bloc
-{
-  position: relative;
-  height: 100%; 
-}
 
 .text
 {
+  font-weight: normal;
   font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   position: absolute;
@@ -41,29 +46,84 @@ img
 .matiereun
 {
   font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
-  position: absolute;
-  bottom: 0;
-  left: 0px;
-  color: black;
-  background-color: white;
-  margin-top: 8px;
+  background-color:#0E1B4A;
+  
   p{
     margin: 0;
+    margin-left: 5px;
+    background-color: #FFFFFF;
+    padding: 2px;
+    border: 2px solid $goldmenu;
+  }
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: -5px;
+ 
+}
+
+.couturier
+{
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.panier{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  size: 50px;
+  margin-right: 20px;
   
+  a{
+    i{
+      color: #FFFFFF;
+      font-size: 50px;
+    }
+    &:hover{
+      opacity: 0.7;
+    }
   }
 }
 
-.matieredeux
+.fleche
 {
-  font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
-  position: absolute;
-  bottom: 0;
-  right: 0px;
-  color: black;
-  background-color: white;
-  margin-top: 8px;
-  p{
-    margin: 0;
-  
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+  margin-right: 20px;
+  i 
+{
+  width: 25px;
+  font-size: 50px;
+}
+}
+
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+.index-custom-footer{
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 390px) {
+  .couturier{
+    height: 300px;
   }
+  .panier{
+    margin-right: 0;
+    a i{
+    font-size: 30px;
+  }
+}
+.fleche{
+  display: none;
+}
 }
