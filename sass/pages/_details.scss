@@ -1,9 +1,10 @@
 .banner {
-    width: 75%;
+    width: 100%;
 }
 
 .title {
-    font-family: 'Italianno';
+    font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
     border: 10px solid $goldmenu;
     border-radius: 40px;
     margin-top: 50px;
@@ -17,10 +18,6 @@
     justify-content: center;
     margin-left: 10%;
     margin-right: auto;
-}
-
-.photo {
-    display: flex;
 }
 
 #illu{
@@ -51,7 +48,7 @@ body .divarticle {
     color: $whiteres;
     margin-left: 15%;
     margin-bottom: 10%;
-    font-family: 'Maitree';
+    font-family: 'Maitree', Verdana, Geneva, Tahoma, sans-serif;
     p{
         margin: 0px;
     }
@@ -67,29 +64,11 @@ body .divarticle {
 
 
 @media screen and (max-width: 390px) {
-    .banner {
-        width: 100%;
-        margin-left: 50%;
-    }
-    
     .title {
-        font-family: 'Italianno';
         border: 5px solid $goldmenu;
-        border-radius: 40px;
-        padding-bottom: 10px;
-        background-color: $bluemenu;
-        text-align: center;
-        color: white;
         font-size: medium;
-        width: 80%;
-        justify-content: center;
         margin-left: 11%;
-        margin-right: auto;
         font-size: x-large;
-    }
-    
-    .photo {
-        display: flex;
     }
 
     #illu{
@@ -100,20 +79,12 @@ body .divarticle {
     
     body .divarticle {
         border: 5px solid $goldmenu;
-        display: flex;
         width: 80%;
-        background-color: $bluemenu;
         height: 600px;
-        font-size: xx-large;
-        text-align: center;
-        color: $whiteres;
-        justify-content: center;
         margin-left: 11%;
         margin-right: auto;
         margin-bottom: 20px;
-        font-family: 'Maitree';
-    }
-    
+    } 
     #textearticle {
         margin-top: 0%;
         width: 80%;
