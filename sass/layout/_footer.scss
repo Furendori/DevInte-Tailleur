@@ -74,6 +74,12 @@ footer{
         #email{
             padding: 8px;
         }
+        a{
+            text-decoration: none;
+            &:hover{
+                color: $goldhover;
+            }
+        }
     }
 }
 #myImg {
