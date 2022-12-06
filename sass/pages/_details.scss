@@ -3,6 +3,7 @@
 }
 
 .title {
+    font-family: 'Italianno';
     border: 10px solid $goldmenu;
     border-radius: 40px;
     margin-top: 50px;
@@ -11,7 +12,7 @@
     background-color: $bluemenu;
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     width: 80%;
     justify-content: center;
     margin-left: 10%;
@@ -20,10 +21,10 @@
 
 .photo {
     display: flex;
-  }
+}
 
 #illu{
-    margin-left: 5%;
+    margin-left: 17%;
     margin-top: 20px;
     height: 1000px;
     width: 60%;
@@ -50,6 +51,7 @@ body .divarticle {
     color: $whiteres;
     margin-left: 15%;
     margin-bottom: 10%;
+    font-family: 'Maitree';
     p{
         margin: 0px;
     }
@@ -71,7 +73,8 @@ body .divarticle {
     }
     
     .title {
-        border: 10px solid $goldmenu;
+        font-family: 'Italianno';
+        border: 5px solid $goldmenu;
         border-radius: 40px;
         padding-bottom: 10px;
         background-color: $bluemenu;
@@ -80,8 +83,9 @@ body .divarticle {
         font-size: medium;
         width: 80%;
         justify-content: center;
-        margin-left: 10%;
+        margin-left: 11%;
         margin-right: auto;
+        font-size: x-large;
     }
     
     .photo {
@@ -89,39 +93,25 @@ body .divarticle {
     }
 
     #illu{
-        margin-left: 5%;
-        width: 90%;
-        height: 80%;
-        margin-bottom: 10%;
-        margin-left: 7%;
-    }
-    
-    .infos {
-        font-size: medium;
-        background-color: $bluemenu;
-        color: white;
-        border: 10px solid $goldmenu;
-        border-radius: 10px;
-        margin-right: 30%;
-        margin-left: 23%;
         width: 80%;
-        justify-content: center;
-        list-style: none;
+        height: 80%;
+        margin-left: 12%;
     }
     
     body .divarticle {
-        border: 10px solid $goldmenu;
+        border: 5px solid $goldmenu;
         display: flex;
-        width: 85%;
+        width: 80%;
         background-color: $bluemenu;
         height: 600px;
         font-size: xx-large;
         text-align: center;
         color: $whiteres;
         justify-content: center;
-        margin-left: 7%;
+        margin-left: 11%;
         margin-right: auto;
         margin-bottom: 20px;
+        font-family: 'Maitree';
     }
     
     #textearticle {
@@ -134,7 +124,4 @@ body .divarticle {
         max-width: 40%;
         font-size: large;
     }
-
-    
-
 }
