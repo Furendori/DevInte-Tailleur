@@ -38,6 +38,8 @@
 body .divarticle {
     border: 10px solid $goldmenu;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 20px;
     width: 70%;
     background-color: $bluemenu;
@@ -50,16 +52,16 @@ body .divarticle {
     p{
         margin: 0px;
     }
+    ul{
+        list-style: none;
+    }
+    .article-text-list{
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-#infoscostume {
-    padding-top: 250px;
-    padding-right: 0px;
-}
-
-#infoscostume2 {
-    padding-top: 250px;
-}
 
 @media screen and (max-width: 390px) {
     .banner {
