@@ -31,6 +31,7 @@ footer{
         text-decoration: none;
         color: $goldmenu;
         &:hover{
+            color: $goldhover;
             text-decoration: underline;
         }
 
@@ -85,10 +86,12 @@ footer{
 #myImg {
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
   }
   
-  #myImg:hover {opacity: 0.7;}
+  #myImg:hover {
+        text-decoration: underline;
+        color: $goldhover;
+    }
   
   /* The Modal (background) */
   .modal {
