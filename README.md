@@ -71,7 +71,7 @@
 
 Notre agence à été contactée par le tailleur Ducsman afin de réaliser son site web.
 
-Afin de mener à bien ce projet nous avons eu une maquette de deux versions du site web.
+Afin de mener à bien ce projet nous avons eu un wireframe de deux versions du site web.
 
 <h2>Desktop</h2>
 
