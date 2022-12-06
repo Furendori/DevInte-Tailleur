@@ -1,13 +1,13 @@
 #preambule
 {
     text-align: center;
-    text-decoration: underline 1px #CBAF6F;
+    text-decoration: underline 1px $goldmenu;
 }
 
 .apropos{
     display: flex;
     flex-wrap: wrap;
-    gap: 200px;
+    gap: 100px;
     
         .apptxt{
             order: 0;
@@ -21,7 +21,7 @@
             border-left: 10px solid $goldmenu;
             order:1;
             height: 500px;
-            margin-top: 10%;
+            margin-top: 100px;
             object-fit: cover;
         }
 }
@@ -70,7 +70,7 @@
   }
   .example .contenu:hover .texthover {
     opacity: 1;
-    transform: translateY(250px);
-    -webkit-transform: translateY(480px);
+    transform: translateY(200px);
+    -webkit-transform: translateY(550px);
   }
 
