@@ -250,12 +250,12 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 nav ul li a {
   padding-left: 0px;
   font-family: "Amiri", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   text-decoration: none;
   color: #CBAF6F;
 }
@@ -263,11 +263,13 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 nav .nav-name {
-  font-size: 6em;
+  margin: 0;
+  font-size: 4em;
   font-family: "Italianno", Verdana, Geneva, Tahoma, sans-serif;
 }
 nav .nav-quote {
-  font-size: 2em;
+  margin: 0;
+  font-size: 1em;
   font-family: "Amiri", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -282,9 +284,9 @@ nav .google-map iframe {
 }
 
 .btn-global {
-  margin-top: 50px;
+  margin-top: 20px;
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 30px;
   margin-left: 15%;
 }
 .btn-global:hover {
@@ -377,8 +379,8 @@ nav .google-map iframe {
   margin-bottom: 20px;
 }
 .section .bloc img {
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 475px;
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
@@ -427,7 +429,7 @@ nav .google-map iframe {
 }
 
 .couturier {
-  height: 500px;
+  height: 300px;
   width: 100%;
   overflow: hidden;
   -o-object-fit: cover;
@@ -442,23 +444,25 @@ nav .google-map iframe {
 }
 .panier a i {
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 40px;
 }
 .panier a:hover {
   opacity: 0.7;
 }
 
 .fleche {
+  z-index: 10;
   position: fixed;
   width: 25px;
   height: 25px;
   bottom: 50px;
   right: 30px;
-  margin-right: 20px;
+  margin-right: 1px;
 }
 .fleche i {
   width: 25px;
-  font-size: 50px;
+  font-size: 40px;
+  color: #CBAF6F;
 }
 
 html {
@@ -577,13 +581,14 @@ main .google-map-contact .google-map {
   width: 100%;
   height: 100%;
 }
-main .contact-form {
+main .contact-form-div {
+  display: flex;
+  justify-content: center;
+}
+main .contact-form-div .contact-form {
   border: 10px solid #CBAF6F;
   border-radius: 50px;
   color: white;
-  margin-left: 350px;
-  display: flex;
-  justify-content: center;
   width: 50%;
   background-color: #0E1B4A;
   margin-top: 50px;
@@ -591,27 +596,27 @@ main .contact-form {
   padding-bottom: 50px;
   margin-bottom: 200px;
 }
-main .contact-form fieldset {
+main .contact-form-div .contact-form fieldset {
   border: 0;
 }
-main .contact-form fieldset div {
+main .contact-form-div .contact-form fieldset div {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
 }
-main .contact-form fieldset div input, main .contact-form fieldset div textarea {
+main .contact-form-div .contact-form fieldset div input, main .contact-form-div .contact-form fieldset div textarea {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
   font-family: "Maitree", Verdana, Geneva, Tahoma, sans-serif;
 }
-main .contact-form fieldset div label {
+main .contact-form-div .contact-form fieldset div label {
   margin-left: auto;
   margin-right: auto;
   font-size: 30px;
   font-family: "Maitree", Verdana, Geneva, Tahoma, sans-serif;
 }
-main .contact-form fieldset .btn-submit {
+main .contact-form-div .contact-form fieldset .btn-submit {
   border: 0;
   font-size: 20px;
   height: 50px;
@@ -620,7 +625,7 @@ main .contact-form fieldset .btn-submit {
   background-color: #000000;
   border: 1px solid #808080;
 }
-main .contact-form fieldset .btn-submit:hover {
+main .contact-form-div .contact-form fieldset .btn-submit:hover {
   background-color: #808080;
   border: 1px solid #000000;
   cursor: pointer;
@@ -660,28 +665,28 @@ main .contact-form fieldset .btn-submit:hover {
     width: 100%;
     height: 100%;
   }
-  main .contact-form {
+  main .contact-form-div .contact-form {
     margin-left: 50px;
     width: 70%;
   }
-  main .contact-form fieldset div {
+  main .contact-form-div .contact-form fieldset div {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
   }
-  main .contact-form fieldset div input, main .contact-form fieldset div textarea {
+  main .contact-form-div .contact-form fieldset div input, main .contact-form-div .contact-form fieldset div textarea {
     width: 70%;
   }
-  main .contact-form fieldset div textarea {
+  main .contact-form-div .contact-form fieldset div textarea {
     height: 100px;
   }
-  main .contact-form fieldset div label {
+  main .contact-form-div .contact-form fieldset div label {
     font-size: 16px;
   }
-  main .contact-form fieldset div:first-child {
+  main .contact-form-div .contact-form fieldset div:first-child {
     margin-top: 0;
   }
-  main .contact-form fieldset .btn-submit {
+  main .contact-form-div .contact-form fieldset .btn-submit {
     font-size: 16px;
   }
 }
