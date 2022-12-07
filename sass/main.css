@@ -429,7 +429,7 @@ nav .google-map iframe {
 }
 
 .couturier {
-  height: 500px;
+  height: 300px;
   width: 100%;
   overflow: hidden;
   -o-object-fit: cover;
@@ -444,7 +444,7 @@ nav .google-map iframe {
 }
 .panier a i {
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 40px;
 }
 .panier a:hover {
   opacity: 0.7;
