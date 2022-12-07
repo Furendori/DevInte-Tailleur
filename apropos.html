@@ -32,7 +32,7 @@
                 <li><a href="#">SAV</a></li>
             </ul>
             <div class="google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.611416033301!2d2.3414638287260106!3d48.861915225405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e18a5f84801%3A0x6eb5daa624bdebd2!2sHalles%20de%20Paris%2C%2075001%20Paris!5e0!3m2!1sfr!2sfr!4v1669813946238!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.611416033301!2d2.3414638287260106!3d48.861915225405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e18a5f84801%3A0x6eb5daa624bdebd2!2sHalles%20de%20Paris%2C%2075001%20Paris!5e0!3m2!1sfr!2sfr!4v1669813946238!5m2!1sfr!2sfr" class="yt" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
             <div>
                 <a href="https://instagram.com"><i class="fa-brands fa-instagram btn-global"></i></a>
@@ -50,17 +50,17 @@
         <h1 class="titrecgv">La Maison Ducsman</h1>
 
         <div class="apropos">
-
             <div class="apptxt">
+                    <p class="textcgv">Derrière ses portes closes, niché dans un coin particulier et serein de Paris, plus de quarante artisans experts arrivent chaque jour dans notre célèbre atelier aux Halles de Paris. Au cours de l'année, ils produiront quelques centaines des costumes et vêtements sur mesure les plus recherchés au monde.</p>
+            </div>   
 
-                 <p class="textcgv">Derrière ses portes closes, niché dans un coin particulier et serein de Paris, plus de quarante artisans experts arrivent chaque jour dans notre célèbre atelier aux Halles de Paris. Au cours de l'année, ils produiront quelques centaines des costumes et vêtements sur mesure les plus recherchés au monde.</p>
-                </div>     
-                <div class="example">
-                    <img src="imgs/ducksman2.jpg" alt="Ducksman dans son atelier prenant des mesures">
-                <div class="content">
-                  <div class="texthover">Le célébre Ducksman dans son atelier aux Halles de Paris</div>
-                  </div>
-             </div>   
+            <div class="example">
+                     <img class="appimg" src="imgs/ducksman2.jpg" alt="Ducksman dans son atelier prenant des mesures"> 
+
+                <div class="contenu">
+                     <div class="texthover">Le célébre Ducsman dans son atelier aux Halles de Paris</div>
+                </div>
+            </div>   
         </div>  
 
 
@@ -102,6 +102,7 @@
                      des boutonnières multiples, des poches passepoilées, des martingales et bien plus encore.
                 </p>
         
+                <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/04NDHHNgnm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
         
             <h2 class="soustitrecgv">Expansion vers le prêt-à-porter</h2>
@@ -121,25 +122,33 @@
         <section class="contact-footer">
             <ul>
                 <li><a href="#"><h2>Besoin d'aide</h2></a></li>
-                <li><a href="#">Nous contacter</a></li>
+                <li><a href="contact.html">Nous contacter</a></li>
                 <li><a href="#">Paiement Sécurisé</a></li>
                 <li><a href="#">Livraison</a></li>
                 <li><a href="#">Retours</a></li>
             </ul>
             <ul>
                 <li><a href="#"><h2>Conseils Produits</h2></a></li>
-                <li><a href="imgs/taille.jpg" target="_blank">Guide des tailles</a></li>
+    
+                <!-- The Modal -->
+                
+    
+                <li id="myImg">Guide des tailles</li>
             </ul>
+            <div id="myModal" class="modal">
+                <span class="close" id="close-taille">&times;</span>
+                <img class="modal-content" id="img01" src="#" alt="guide des tailles">
+              </div>
             <ul>
                 <li><a href="#"><h2>Mentions Légales</h2></a></li>
                 <li><a href="cgv.html">Conditions Générales de Vente</a></li>
                 <li><a href="rgpd.html">Règlement Général sur la Protection des Données</a></li>
                 <li><a href="mentions.html">Mentions Légales</a></li>
             </ul>
-
+    
         </section>
-
-
+    
+    
         <section class="footer-newsletter">
             <div>
                 <a href="index.html">
@@ -155,9 +164,8 @@
                 <input type="submit" value="Valider" class="contact-submit">
             </div>
         </section> 
-
+    
     </footer>
-
 
     <!-- Fin Footer -->
 

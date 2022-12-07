@@ -106,8 +106,8 @@ Afin de mener à bien ce projet nous avons eu un wireframe de deux versions du s
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Page Accueil
-- [ ] Page Détail
+- [X] Page Accueil
+- [X] Page Détail
 - [X] Page Contact
 - [X] Page CGV
 - [X] Page RGPD
