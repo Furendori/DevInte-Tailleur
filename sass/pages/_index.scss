@@ -91,16 +91,18 @@
 
 .fleche
 {
+  z-index: 10;
   position: fixed;
   width: 25px;
   height: 25px;
   bottom: 50px;
   right: 30px;
-  margin-right: 20px;
+  margin-right: 1px;
   i 
 {
   width: 25px;
-  font-size: 50px;
+  font-size: 40px;
+  color:$goldmenu;
 }
 }
 
