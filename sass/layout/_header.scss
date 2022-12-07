@@ -25,7 +25,7 @@ nav{
         padding: 0;
         li{
             list-style-type: none;
-            padding-top: 20px;
+            padding-top: 10px;
             a{
                 padding-left: 0px;
                 font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
@@ -39,11 +39,13 @@ nav{
         }
     }
     .nav-name{
-        font-size: 6em;
+        margin: 0;
+        font-size: 4em;
         font-family: 'Italianno', Verdana, Geneva, Tahoma, sans-serif
     }
     .nav-quote{
-        font-size: 2em;
+        margin: 0;
+        font-size: 1em;
         font-family: 'Amiri', Verdana, Geneva, Tahoma, sans-serif;
     }
 }
@@ -61,9 +63,9 @@ nav {
 }
 
 .btn-global{
-    margin-top: 50px;
+    margin-top: 20px;
     color: $whiteres;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 15%;
     &:hover{
         opacity: 0.7;
