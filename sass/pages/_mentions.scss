@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
+    margin-left: 10%;
     
         .apptxt{
             order: 0;
@@ -21,7 +22,6 @@
             border-left: 10px solid $goldmenu;
             order:1;
             height: 500px;
-            width: auto;
             margin-top: 100px;
             object-fit: cover;
         }
@@ -38,9 +38,9 @@
 
 .yt{
   width: 98%;
-  border: 8px solid $goldmenu;
-  
+  border: 7px solid $goldmenu;
 }
+
 .example {
     position: relative;
     padding: 0;

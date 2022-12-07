@@ -789,7 +789,8 @@ body .divarticle .article-text-list {
 .apropos {
   display: flex;
   flex-wrap: wrap;
-  gap: 200px;
+  gap: 100px;
+  margin-left: 10%;
 }
 .apropos .apptxt {
   order: 0;
@@ -803,7 +804,7 @@ body .divarticle .article-text-list {
   border-left: 10px solid #CBAF6F;
   order: 1;
   height: 500px;
-  margin-top: 10%;
+  margin-top: 100px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -815,6 +816,11 @@ body .divarticle .article-text-list {
   font-size: 22px;
   font-weight: bold;
   border: 2px solid #CBAF6F;
+}
+
+.yt {
+  width: 98%;
+  border: 7px solid #CBAF6F;
 }
 
 .example {
@@ -851,8 +857,8 @@ body .divarticle .article-text-list {
 
 .example .contenu:hover .texthover {
   opacity: 1;
-  transform: translateY(250px);
-  -webkit-transform: translateY(480px);
+  transform: translateY(200px);
+  -webkit-transform: translateY(550px);
 }
 
 @-webkit-keyframes tracking-in-contract {
